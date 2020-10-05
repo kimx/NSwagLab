@@ -20,6 +20,9 @@ namespace NSwagLab.Controllers
         /// </summary>
         /// <returns></returns>
         [Route("GetAll")]
+        [NSwag.Annotations.OpenApiTags("KIM-TAG", "OK")]
+        [NSwag.Annotations.OpenApiOperation("取得多筆資料 s", "取得多筆資料 d")]
+        [NSwag.Annotations.)]
         public List<TestModel> Get()
         {
             List<TestModel> result = new List<TestModel>();
@@ -44,7 +47,7 @@ namespace NSwagLab.Controllers
         /// </summary>
         /// <param name="value">資料</param>
         // POST api/values
-        public void Post([FromBody]TestModel value)
+        public void Post([FromBody] TestModel value)
         {
         }
 

@@ -69,6 +69,9 @@
     <Reference Include="NJsonSchema, Version=10.1.11.0, Culture=neutral, PublicKeyToken=c2f9c3bdfae56102, processorArchitecture=MSIL">
       <HintPath>..\packages\NJsonSchema.10.1.11\lib\net45\NJsonSchema.dll</HintPath>
     </Reference>
+    <Reference Include="NSwag.Annotations, Version=13.8.2.0, Culture=neutral, PublicKeyToken=c2d88086e098d109, processorArchitecture=MSIL">
+      <HintPath>..\packages\NSwag.Annotations.13.8.2\lib\net45\NSwag.Annotations.dll</HintPath>
+    </Reference>
     <Reference Include="NSwag.AspNet.Owin, Version=13.3.0.0, Culture=neutral, PublicKeyToken=c2d88086e098d109, processorArchitecture=MSIL">
       <HintPath>..\packages\NSwag.AspNet.Owin.13.3.0\lib\net45\NSwag.AspNet.Owin.dll</HintPath>
     </Reference>
